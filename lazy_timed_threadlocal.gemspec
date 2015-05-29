@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = LazyTimedThreadlocal::VERSION
   spec.authors       = ["Shawn Stephens"]
   spec.email         = ["shawn@motivatedcompany.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Lazily initializes a proc attaching it to the current thread. Also allows a a timeout proc for execution when retrieving a stored object that hasn't been used a configurable number of seconds since the former request.}
+  spec.description   = %q{Lazy initializes a proc attaching it to the current thread. Also allows a a timeout proc for execution when retrieving a stored object that hasn't been used a configurable number of seconds since the former request.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
