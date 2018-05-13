@@ -1,6 +1,6 @@
 # LazyTimedThreadlocal
 
-TODO: Write a gem description
+Lazy initializes a proc attaching it to the current thread. Also allows a a timeout proc for execution when retrieving a stored object that hasn't been used a configurable number of seconds since the former request.
 
 ## Installation
 
